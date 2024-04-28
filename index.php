@@ -14,8 +14,8 @@ use config\request as Request;
 Autoload::Start();
 
 session_start();
-/* 
-require_once(VIEWS_PATH . "header.php"); */
+
+require_once(VIEWS_PATH . "header.php");
 
 Router::Route(new Request());
 /* 
