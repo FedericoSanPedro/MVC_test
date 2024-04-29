@@ -171,7 +171,7 @@ class AccountController{
     }
 
     public function logIn($message=''){
-        require_once("views/login.php");
+        require_once "views/login.php";
     }
 
 }

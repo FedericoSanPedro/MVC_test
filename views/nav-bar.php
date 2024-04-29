@@ -7,11 +7,11 @@
         if(isset($_SESSION[`account`])){ ?>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo FRONT_ROOT ?> account/viewAccount">Ver Cuenta</a>
+                    <a class="nav-link" href="<?php echo FRONT_ROOT ?>account/viewAccount">Ver Cuenta</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo FRONT_ROOT ?> account/logOff">Cerrar Sesion</a>
+                    <a class="nav-link" href="<?php echo FRONT_ROOT ?>account/logOff">Cerrar Sesion</a>
                 </li>
 
             </ul>
@@ -19,11 +19,11 @@
             
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo FRONT_ROOT ?> account/logIn">Iniciar Sesion</a>
+                <a class="nav-link" href="<?php echo FRONT_ROOT ?>account/logIn">Iniciar Sesion</a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo FRONT_ROOT ?> account/register">Crear Cuenta</a>
+                <a class="nav-link" href="<?php echo FRONT_ROOT ?>account/register">Crear Cuenta</a>
             </li>
 
         </ul>
