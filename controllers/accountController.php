@@ -1,17 +1,15 @@
 <?php
 
+namespace Controllers;
+
 use models\Account as account;
 use models\Person as person;
 
-namespace Controllers;
-
 class AccountController{
-    private $email;
     private $connection;
     private static $instance = null;
 
     function __construct(){
-        $this->email = new email();
     }
 
     public static function GetInstance(){
@@ -172,7 +170,7 @@ class AccountController{
         
     }
 
-    public function logIn(){
+    public function logIn($message=''){
         require_once("views/login.php");
     }
 

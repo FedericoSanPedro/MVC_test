@@ -1,7 +1,7 @@
 <?php
 
 define('ROOT', dirname(__DIR__) . "/");
-define('FRONT_ROOT', '/MyJob/');
+define('FRONT_ROOT', '/MVC_test/');
 define('VIEWS_PATH','views/');
 define("CSS_PATH", FRONT_ROOT.VIEWS_PATH . "css/");
 define("JS_PATH", FRONT_ROOT.VIEWS_PATH . "js/");
@@ -12,7 +12,7 @@ define('HOST_URL', '//'.$_SERVER['HTTP_HOST'].dirname($_SERVER['PHP_SELF'])."/")
 
 //Constantes para BD 
 define("DB_HOST", "localhost");
-define("DB_NAME", "MyJob");
+define("DB_NAME", "MVC_test");
 define("DB_USER", "root");
 define("DB_PASS", "");
 
